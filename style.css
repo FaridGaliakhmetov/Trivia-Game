@@ -1,0 +1,52 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 700px;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+}
+.example{
+    
+    background-color: rgb(77, 77, 151);
+    color: white;
+    padding: 10px 0 10px 20px;
+    border-radius: 15px 15px 0 0;
+    
+}
+.exbody{
+    flex:1 0 auto;
+    background-color: rgb(115, 153, 189);
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    background-color: white;
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    flex-wrap: wrap;
+}
+button{
+    height: 50px;
+    width: 80px;
+    margin: 10px;
+    border: 0;
+    background-color: rgb(99, 26, 168);
+    border-radius: 5px;
+    color: white;
+}
